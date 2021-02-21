@@ -1,0 +1,5 @@
+parameters:
+    level: 5
+    excludes_analyse:
+        - %currentWorkingDirectory%/generated-classes/App/Model/Base/*
+        - %currentWorkingDirectory%/generated-classes/App/Model/Map/*

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="bookstore" defaultIdMethod="native" namespace="App\Model" package="src.Model">
+  <table name="book" phpName="Book">
+    <column name="id" type="integer" required="true" primaryKey="true" autoIncrement="true"/>
+    <column name="field_01" type="varchar" size="255" required="true" />
+    <column name="field_02" type="varchar" size="255" required="true" />
+    <column name="field_03" type="varchar" size="255" required="true" />
+    <column name="field_04" type="varchar" size="255" required="true" />
+    <column name="field_05" type="varchar" size="255" required="true" />
+    <column name="field_06" type="varchar" size="255" required="true" />
+    <column name="field_07" type="varchar" size="255" required="true" />
+    <column name="field_08" type="varchar" size="255" required="true" />
+    <column name="field_09" type="varchar" size="255" required="true" />
+    <column name="field_10" type="varchar" size="255" required="true" />
+    <column name="field_11" type="varchar" size="255" required="true" />
+    <column name="field_12" type="varchar" size="255" required="true" />
+    <column name="field_13" type="varchar" size="255" required="true" />
+    <column name="field_14" type="varchar" size="255" required="true" />
+    <column name="field_15" type="varchar" size="255" required="true" />
+    <column name="field_16" type="varchar" size="255" required="true" />
+    <column name="field_17" type="varchar" size="255" required="true" />
+    <column name="field_18" type="varchar" size="255" required="true" />
+    <column name="field_19" type="varchar" size="255" required="true" />
+    <column name="field_20" type="varchar" size="255" required="true" />
+    <column name="field_21" type="varchar" size="255" required="true" />
+    <column name="field_22" type="varchar" size="255" required="true" />
+    <column name="field_23" type="varchar" size="255" required="true" />
+    <column name="field_24" type="varchar" size="255" required="true" />
+    <column name="field_25" type="varchar" size="255" required="true" />
+    <column name="field_26" type="varchar" size="255" required="true" />
+    <column name="field_27" type="varchar" size="255" required="true" />
+    <column name="field_28" type="varchar" size="255" required="true" />
+    <column name="field_29" type="varchar" size="255" required="true" />
+    <column name="field_30" type="varchar" size="255" required="true" />
+    <column name="field_31" type="varchar" size="255" required="true" />
+    <column name="field_32" type="varchar" size="255" required="true" />
+    <column name="field_33" type="varchar" size="255" required="true" />
+    <column name="field_34" type="varchar" size="255" required="true" />
+    <column name="field_35" type="varchar" size="255" required="true" />
+    <column name="field_36" type="varchar" size="255" required="true" />
+    <column name="field_37" type="varchar" size="255" required="true" />
+    <column name="field_38" type="varchar" size="255" required="true" />
+    <column name="field_39" type="varchar" size="255" required="true" />
+    <column name="field_40" type="varchar" size="255" required="true" />
+    <column name="field_41" type="varchar" size="255" required="true" />
+    <column name="field_42" type="varchar" size="255" required="true" />
+    <column name="field_43" type="varchar" size="255" required="true" />
+    <column name="field_44" type="varchar" size="255" required="true" />
+    <column name="field_45" type="varchar" size="255" required="true" />
+    <column name="field_46" type="varchar" size="255" required="true" />
+    <column name="field_47" type="varchar" size="255" required="true" />
+    <column name="field_48" type="varchar" size="255" required="true" />
+    <column name="field_49" type="varchar" size="255" required="true" />
+    <column name="field_50" type="varchar" size="255" required="true" />
+  </table>
+</database>

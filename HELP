@@ -1,0 +1,4 @@
+composer install
+composer dump-autoload
+vendor/bin/propel build
+vendor/bin/phpstan analyze generated-classes --debug -vvv

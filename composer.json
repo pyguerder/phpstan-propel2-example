@@ -1,0 +1,13 @@
+{
+	"require" : {
+		"propel/propel" : "~2.0@dev"
+	},
+	"require-dev" : {
+		"phpstan/phpstan" : "^0.12.78"
+	},
+	"autoload" : {
+		"psr-4": {
+			"App\\": "generated-classes/App/"
+		}
+	}
+}
