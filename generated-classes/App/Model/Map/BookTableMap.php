@@ -33,302 +33,302 @@ class BookTableMap extends TableMap
     /**
      * The (dot-path) name of this class
      */
-    const CLASS_NAME = 'App.Model.Map.BookTableMap';
+    public const CLASS_NAME = 'App.Model.Map.BookTableMap';
 
     /**
      * The default database name for this class
      */
-    const DATABASE_NAME = 'bookstore';
+    public const DATABASE_NAME = 'bookstore';
 
     /**
      * The table name for this class
      */
-    const TABLE_NAME = 'book';
+    public const TABLE_NAME = 'book';
 
     /**
      * The related Propel class for this table
      */
-    const OM_CLASS = '\\App\\Model\\Book';
+    public const OM_CLASS = '\\App\\Model\\Book';
 
     /**
      * A class that can be returned by this tableMap
      */
-    const CLASS_DEFAULT = 'App.Model.Book';
+    public const CLASS_DEFAULT = 'App.Model.Book';
 
     /**
      * The total number of columns
      */
-    const NUM_COLUMNS = 51;
+    public const NUM_COLUMNS = 51;
 
     /**
      * The number of lazy-loaded columns
      */
-    const NUM_LAZY_LOAD_COLUMNS = 0;
+    public const NUM_LAZY_LOAD_COLUMNS = 0;
 
     /**
      * The number of columns to hydrate (NUM_COLUMNS - NUM_LAZY_LOAD_COLUMNS)
      */
-    const NUM_HYDRATE_COLUMNS = 51;
+    public const NUM_HYDRATE_COLUMNS = 51;
 
     /**
      * the column name for the id field
      */
-    const COL_ID = 'book.id';
+    public const COL_ID = 'book.id';
 
     /**
      * the column name for the field_01 field
      */
-    const COL_FIELD_01 = 'book.field_01';
+    public const COL_FIELD_01 = 'book.field_01';
 
     /**
      * the column name for the field_02 field
      */
-    const COL_FIELD_02 = 'book.field_02';
+    public const COL_FIELD_02 = 'book.field_02';
 
     /**
      * the column name for the field_03 field
      */
-    const COL_FIELD_03 = 'book.field_03';
+    public const COL_FIELD_03 = 'book.field_03';
 
     /**
      * the column name for the field_04 field
      */
-    const COL_FIELD_04 = 'book.field_04';
+    public const COL_FIELD_04 = 'book.field_04';
 
     /**
      * the column name for the field_05 field
      */
-    const COL_FIELD_05 = 'book.field_05';
+    public const COL_FIELD_05 = 'book.field_05';
 
     /**
      * the column name for the field_06 field
      */
-    const COL_FIELD_06 = 'book.field_06';
+    public const COL_FIELD_06 = 'book.field_06';
 
     /**
      * the column name for the field_07 field
      */
-    const COL_FIELD_07 = 'book.field_07';
+    public const COL_FIELD_07 = 'book.field_07';
 
     /**
      * the column name for the field_08 field
      */
-    const COL_FIELD_08 = 'book.field_08';
+    public const COL_FIELD_08 = 'book.field_08';
 
     /**
      * the column name for the field_09 field
      */
-    const COL_FIELD_09 = 'book.field_09';
+    public const COL_FIELD_09 = 'book.field_09';
 
     /**
      * the column name for the field_10 field
      */
-    const COL_FIELD_10 = 'book.field_10';
+    public const COL_FIELD_10 = 'book.field_10';
 
     /**
      * the column name for the field_11 field
      */
-    const COL_FIELD_11 = 'book.field_11';
+    public const COL_FIELD_11 = 'book.field_11';
 
     /**
      * the column name for the field_12 field
      */
-    const COL_FIELD_12 = 'book.field_12';
+    public const COL_FIELD_12 = 'book.field_12';
 
     /**
      * the column name for the field_13 field
      */
-    const COL_FIELD_13 = 'book.field_13';
+    public const COL_FIELD_13 = 'book.field_13';
 
     /**
      * the column name for the field_14 field
      */
-    const COL_FIELD_14 = 'book.field_14';
+    public const COL_FIELD_14 = 'book.field_14';
 
     /**
      * the column name for the field_15 field
      */
-    const COL_FIELD_15 = 'book.field_15';
+    public const COL_FIELD_15 = 'book.field_15';
 
     /**
      * the column name for the field_16 field
      */
-    const COL_FIELD_16 = 'book.field_16';
+    public const COL_FIELD_16 = 'book.field_16';
 
     /**
      * the column name for the field_17 field
      */
-    const COL_FIELD_17 = 'book.field_17';
+    public const COL_FIELD_17 = 'book.field_17';
 
     /**
      * the column name for the field_18 field
      */
-    const COL_FIELD_18 = 'book.field_18';
+    public const COL_FIELD_18 = 'book.field_18';
 
     /**
      * the column name for the field_19 field
      */
-    const COL_FIELD_19 = 'book.field_19';
+    public const COL_FIELD_19 = 'book.field_19';
 
     /**
      * the column name for the field_20 field
      */
-    const COL_FIELD_20 = 'book.field_20';
+    public const COL_FIELD_20 = 'book.field_20';
 
     /**
      * the column name for the field_21 field
      */
-    const COL_FIELD_21 = 'book.field_21';
+    public const COL_FIELD_21 = 'book.field_21';
 
     /**
      * the column name for the field_22 field
      */
-    const COL_FIELD_22 = 'book.field_22';
+    public const COL_FIELD_22 = 'book.field_22';
 
     /**
      * the column name for the field_23 field
      */
-    const COL_FIELD_23 = 'book.field_23';
+    public const COL_FIELD_23 = 'book.field_23';
 
     /**
      * the column name for the field_24 field
      */
-    const COL_FIELD_24 = 'book.field_24';
+    public const COL_FIELD_24 = 'book.field_24';
 
     /**
      * the column name for the field_25 field
      */
-    const COL_FIELD_25 = 'book.field_25';
+    public const COL_FIELD_25 = 'book.field_25';
 
     /**
      * the column name for the field_26 field
      */
-    const COL_FIELD_26 = 'book.field_26';
+    public const COL_FIELD_26 = 'book.field_26';
 
     /**
      * the column name for the field_27 field
      */
-    const COL_FIELD_27 = 'book.field_27';
+    public const COL_FIELD_27 = 'book.field_27';
 
     /**
      * the column name for the field_28 field
      */
-    const COL_FIELD_28 = 'book.field_28';
+    public const COL_FIELD_28 = 'book.field_28';
 
     /**
      * the column name for the field_29 field
      */
-    const COL_FIELD_29 = 'book.field_29';
+    public const COL_FIELD_29 = 'book.field_29';
 
     /**
      * the column name for the field_30 field
      */
-    const COL_FIELD_30 = 'book.field_30';
+    public const COL_FIELD_30 = 'book.field_30';
 
     /**
      * the column name for the field_31 field
      */
-    const COL_FIELD_31 = 'book.field_31';
+    public const COL_FIELD_31 = 'book.field_31';
 
     /**
      * the column name for the field_32 field
      */
-    const COL_FIELD_32 = 'book.field_32';
+    public const COL_FIELD_32 = 'book.field_32';
 
     /**
      * the column name for the field_33 field
      */
-    const COL_FIELD_33 = 'book.field_33';
+    public const COL_FIELD_33 = 'book.field_33';
 
     /**
      * the column name for the field_34 field
      */
-    const COL_FIELD_34 = 'book.field_34';
+    public const COL_FIELD_34 = 'book.field_34';
 
     /**
      * the column name for the field_35 field
      */
-    const COL_FIELD_35 = 'book.field_35';
+    public const COL_FIELD_35 = 'book.field_35';
 
     /**
      * the column name for the field_36 field
      */
-    const COL_FIELD_36 = 'book.field_36';
+    public const COL_FIELD_36 = 'book.field_36';
 
     /**
      * the column name for the field_37 field
      */
-    const COL_FIELD_37 = 'book.field_37';
+    public const COL_FIELD_37 = 'book.field_37';
 
     /**
      * the column name for the field_38 field
      */
-    const COL_FIELD_38 = 'book.field_38';
+    public const COL_FIELD_38 = 'book.field_38';
 
     /**
      * the column name for the field_39 field
      */
-    const COL_FIELD_39 = 'book.field_39';
+    public const COL_FIELD_39 = 'book.field_39';
 
     /**
      * the column name for the field_40 field
      */
-    const COL_FIELD_40 = 'book.field_40';
+    public const COL_FIELD_40 = 'book.field_40';
 
     /**
      * the column name for the field_41 field
      */
-    const COL_FIELD_41 = 'book.field_41';
+    public const COL_FIELD_41 = 'book.field_41';
 
     /**
      * the column name for the field_42 field
      */
-    const COL_FIELD_42 = 'book.field_42';
+    public const COL_FIELD_42 = 'book.field_42';
 
     /**
      * the column name for the field_43 field
      */
-    const COL_FIELD_43 = 'book.field_43';
+    public const COL_FIELD_43 = 'book.field_43';
 
     /**
      * the column name for the field_44 field
      */
-    const COL_FIELD_44 = 'book.field_44';
+    public const COL_FIELD_44 = 'book.field_44';
 
     /**
      * the column name for the field_45 field
      */
-    const COL_FIELD_45 = 'book.field_45';
+    public const COL_FIELD_45 = 'book.field_45';
 
     /**
      * the column name for the field_46 field
      */
-    const COL_FIELD_46 = 'book.field_46';
+    public const COL_FIELD_46 = 'book.field_46';
 
     /**
      * the column name for the field_47 field
      */
-    const COL_FIELD_47 = 'book.field_47';
+    public const COL_FIELD_47 = 'book.field_47';
 
     /**
      * the column name for the field_48 field
      */
-    const COL_FIELD_48 = 'book.field_48';
+    public const COL_FIELD_48 = 'book.field_48';
 
     /**
      * the column name for the field_49 field
      */
-    const COL_FIELD_49 = 'book.field_49';
+    public const COL_FIELD_49 = 'book.field_49';
 
     /**
      * the column name for the field_50 field
      */
-    const COL_FIELD_50 = 'book.field_50';
+    public const COL_FIELD_50 = 'book.field_50';
 
     /**
      * The default string format for model objects of the related table
      */
-    const DEFAULT_STRING_FORMAT = 'YAML';
+    public const DEFAULT_STRING_FORMAT = 'YAML';
 
     /**
      * holds an array of fieldnames
@@ -336,13 +336,13 @@ class BookTableMap extends TableMap
      * first dimension keys are the type constants
      * e.g. self::$fieldNames[self::TYPE_PHPNAME][0] = 'Id'
      */
-    protected static $fieldNames = array (
-        self::TYPE_PHPNAME       => array('Id', 'Field01', 'Field02', 'Field03', 'Field04', 'Field05', 'Field06', 'Field07', 'Field08', 'Field09', 'Field10', 'Field11', 'Field12', 'Field13', 'Field14', 'Field15', 'Field16', 'Field17', 'Field18', 'Field19', 'Field20', 'Field21', 'Field22', 'Field23', 'Field24', 'Field25', 'Field26', 'Field27', 'Field28', 'Field29', 'Field30', 'Field31', 'Field32', 'Field33', 'Field34', 'Field35', 'Field36', 'Field37', 'Field38', 'Field39', 'Field40', 'Field41', 'Field42', 'Field43', 'Field44', 'Field45', 'Field46', 'Field47', 'Field48', 'Field49', 'Field50', ),
-        self::TYPE_CAMELNAME     => array('id', 'field01', 'field02', 'field03', 'field04', 'field05', 'field06', 'field07', 'field08', 'field09', 'field10', 'field11', 'field12', 'field13', 'field14', 'field15', 'field16', 'field17', 'field18', 'field19', 'field20', 'field21', 'field22', 'field23', 'field24', 'field25', 'field26', 'field27', 'field28', 'field29', 'field30', 'field31', 'field32', 'field33', 'field34', 'field35', 'field36', 'field37', 'field38', 'field39', 'field40', 'field41', 'field42', 'field43', 'field44', 'field45', 'field46', 'field47', 'field48', 'field49', 'field50', ),
-        self::TYPE_COLNAME       => array(BookTableMap::COL_ID, BookTableMap::COL_FIELD_01, BookTableMap::COL_FIELD_02, BookTableMap::COL_FIELD_03, BookTableMap::COL_FIELD_04, BookTableMap::COL_FIELD_05, BookTableMap::COL_FIELD_06, BookTableMap::COL_FIELD_07, BookTableMap::COL_FIELD_08, BookTableMap::COL_FIELD_09, BookTableMap::COL_FIELD_10, BookTableMap::COL_FIELD_11, BookTableMap::COL_FIELD_12, BookTableMap::COL_FIELD_13, BookTableMap::COL_FIELD_14, BookTableMap::COL_FIELD_15, BookTableMap::COL_FIELD_16, BookTableMap::COL_FIELD_17, BookTableMap::COL_FIELD_18, BookTableMap::COL_FIELD_19, BookTableMap::COL_FIELD_20, BookTableMap::COL_FIELD_21, BookTableMap::COL_FIELD_22, BookTableMap::COL_FIELD_23, BookTableMap::COL_FIELD_24, BookTableMap::COL_FIELD_25, BookTableMap::COL_FIELD_26, BookTableMap::COL_FIELD_27, BookTableMap::COL_FIELD_28, BookTableMap::COL_FIELD_29, BookTableMap::COL_FIELD_30, BookTableMap::COL_FIELD_31, BookTableMap::COL_FIELD_32, BookTableMap::COL_FIELD_33, BookTableMap::COL_FIELD_34, BookTableMap::COL_FIELD_35, BookTableMap::COL_FIELD_36, BookTableMap::COL_FIELD_37, BookTableMap::COL_FIELD_38, BookTableMap::COL_FIELD_39, BookTableMap::COL_FIELD_40, BookTableMap::COL_FIELD_41, BookTableMap::COL_FIELD_42, BookTableMap::COL_FIELD_43, BookTableMap::COL_FIELD_44, BookTableMap::COL_FIELD_45, BookTableMap::COL_FIELD_46, BookTableMap::COL_FIELD_47, BookTableMap::COL_FIELD_48, BookTableMap::COL_FIELD_49, BookTableMap::COL_FIELD_50, ),
-        self::TYPE_FIELDNAME     => array('id', 'field_01', 'field_02', 'field_03', 'field_04', 'field_05', 'field_06', 'field_07', 'field_08', 'field_09', 'field_10', 'field_11', 'field_12', 'field_13', 'field_14', 'field_15', 'field_16', 'field_17', 'field_18', 'field_19', 'field_20', 'field_21', 'field_22', 'field_23', 'field_24', 'field_25', 'field_26', 'field_27', 'field_28', 'field_29', 'field_30', 'field_31', 'field_32', 'field_33', 'field_34', 'field_35', 'field_36', 'field_37', 'field_38', 'field_39', 'field_40', 'field_41', 'field_42', 'field_43', 'field_44', 'field_45', 'field_46', 'field_47', 'field_48', 'field_49', 'field_50', ),
-        self::TYPE_NUM           => array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, )
-    );
+    protected static $fieldNames = [
+        self::TYPE_PHPNAME       => ['Id', 'Field01', 'Field02', 'Field03', 'Field04', 'Field05', 'Field06', 'Field07', 'Field08', 'Field09', 'Field10', 'Field11', 'Field12', 'Field13', 'Field14', 'Field15', 'Field16', 'Field17', 'Field18', 'Field19', 'Field20', 'Field21', 'Field22', 'Field23', 'Field24', 'Field25', 'Field26', 'Field27', 'Field28', 'Field29', 'Field30', 'Field31', 'Field32', 'Field33', 'Field34', 'Field35', 'Field36', 'Field37', 'Field38', 'Field39', 'Field40', 'Field41', 'Field42', 'Field43', 'Field44', 'Field45', 'Field46', 'Field47', 'Field48', 'Field49', 'Field50', ],
+        self::TYPE_CAMELNAME     => ['id', 'field01', 'field02', 'field03', 'field04', 'field05', 'field06', 'field07', 'field08', 'field09', 'field10', 'field11', 'field12', 'field13', 'field14', 'field15', 'field16', 'field17', 'field18', 'field19', 'field20', 'field21', 'field22', 'field23', 'field24', 'field25', 'field26', 'field27', 'field28', 'field29', 'field30', 'field31', 'field32', 'field33', 'field34', 'field35', 'field36', 'field37', 'field38', 'field39', 'field40', 'field41', 'field42', 'field43', 'field44', 'field45', 'field46', 'field47', 'field48', 'field49', 'field50', ],
+        self::TYPE_COLNAME       => [BookTableMap::COL_ID, BookTableMap::COL_FIELD_01, BookTableMap::COL_FIELD_02, BookTableMap::COL_FIELD_03, BookTableMap::COL_FIELD_04, BookTableMap::COL_FIELD_05, BookTableMap::COL_FIELD_06, BookTableMap::COL_FIELD_07, BookTableMap::COL_FIELD_08, BookTableMap::COL_FIELD_09, BookTableMap::COL_FIELD_10, BookTableMap::COL_FIELD_11, BookTableMap::COL_FIELD_12, BookTableMap::COL_FIELD_13, BookTableMap::COL_FIELD_14, BookTableMap::COL_FIELD_15, BookTableMap::COL_FIELD_16, BookTableMap::COL_FIELD_17, BookTableMap::COL_FIELD_18, BookTableMap::COL_FIELD_19, BookTableMap::COL_FIELD_20, BookTableMap::COL_FIELD_21, BookTableMap::COL_FIELD_22, BookTableMap::COL_FIELD_23, BookTableMap::COL_FIELD_24, BookTableMap::COL_FIELD_25, BookTableMap::COL_FIELD_26, BookTableMap::COL_FIELD_27, BookTableMap::COL_FIELD_28, BookTableMap::COL_FIELD_29, BookTableMap::COL_FIELD_30, BookTableMap::COL_FIELD_31, BookTableMap::COL_FIELD_32, BookTableMap::COL_FIELD_33, BookTableMap::COL_FIELD_34, BookTableMap::COL_FIELD_35, BookTableMap::COL_FIELD_36, BookTableMap::COL_FIELD_37, BookTableMap::COL_FIELD_38, BookTableMap::COL_FIELD_39, BookTableMap::COL_FIELD_40, BookTableMap::COL_FIELD_41, BookTableMap::COL_FIELD_42, BookTableMap::COL_FIELD_43, BookTableMap::COL_FIELD_44, BookTableMap::COL_FIELD_45, BookTableMap::COL_FIELD_46, BookTableMap::COL_FIELD_47, BookTableMap::COL_FIELD_48, BookTableMap::COL_FIELD_49, BookTableMap::COL_FIELD_50, ],
+        self::TYPE_FIELDNAME     => ['id', 'field_01', 'field_02', 'field_03', 'field_04', 'field_05', 'field_06', 'field_07', 'field_08', 'field_09', 'field_10', 'field_11', 'field_12', 'field_13', 'field_14', 'field_15', 'field_16', 'field_17', 'field_18', 'field_19', 'field_20', 'field_21', 'field_22', 'field_23', 'field_24', 'field_25', 'field_26', 'field_27', 'field_28', 'field_29', 'field_30', 'field_31', 'field_32', 'field_33', 'field_34', 'field_35', 'field_36', 'field_37', 'field_38', 'field_39', 'field_40', 'field_41', 'field_42', 'field_43', 'field_44', 'field_45', 'field_46', 'field_47', 'field_48', 'field_49', 'field_50', ],
+        self::TYPE_NUM           => [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, ]
+    ];
 
     /**
      * holds an array of keys for quick access to the fieldnames array
@@ -350,29 +350,26 @@ class BookTableMap extends TableMap
      * first dimension keys are the type constants
      * e.g. self::$fieldKeys[self::TYPE_PHPNAME]['Id'] = 0
      */
-    protected static $fieldKeys = array (
-        self::TYPE_PHPNAME       => array('Id' => 0, 'Field01' => 1, 'Field02' => 2, 'Field03' => 3, 'Field04' => 4, 'Field05' => 5, 'Field06' => 6, 'Field07' => 7, 'Field08' => 8, 'Field09' => 9, 'Field10' => 10, 'Field11' => 11, 'Field12' => 12, 'Field13' => 13, 'Field14' => 14, 'Field15' => 15, 'Field16' => 16, 'Field17' => 17, 'Field18' => 18, 'Field19' => 19, 'Field20' => 20, 'Field21' => 21, 'Field22' => 22, 'Field23' => 23, 'Field24' => 24, 'Field25' => 25, 'Field26' => 26, 'Field27' => 27, 'Field28' => 28, 'Field29' => 29, 'Field30' => 30, 'Field31' => 31, 'Field32' => 32, 'Field33' => 33, 'Field34' => 34, 'Field35' => 35, 'Field36' => 36, 'Field37' => 37, 'Field38' => 38, 'Field39' => 39, 'Field40' => 40, 'Field41' => 41, 'Field42' => 42, 'Field43' => 43, 'Field44' => 44, 'Field45' => 45, 'Field46' => 46, 'Field47' => 47, 'Field48' => 48, 'Field49' => 49, 'Field50' => 50, ),
-        self::TYPE_CAMELNAME     => array('id' => 0, 'field01' => 1, 'field02' => 2, 'field03' => 3, 'field04' => 4, 'field05' => 5, 'field06' => 6, 'field07' => 7, 'field08' => 8, 'field09' => 9, 'field10' => 10, 'field11' => 11, 'field12' => 12, 'field13' => 13, 'field14' => 14, 'field15' => 15, 'field16' => 16, 'field17' => 17, 'field18' => 18, 'field19' => 19, 'field20' => 20, 'field21' => 21, 'field22' => 22, 'field23' => 23, 'field24' => 24, 'field25' => 25, 'field26' => 26, 'field27' => 27, 'field28' => 28, 'field29' => 29, 'field30' => 30, 'field31' => 31, 'field32' => 32, 'field33' => 33, 'field34' => 34, 'field35' => 35, 'field36' => 36, 'field37' => 37, 'field38' => 38, 'field39' => 39, 'field40' => 40, 'field41' => 41, 'field42' => 42, 'field43' => 43, 'field44' => 44, 'field45' => 45, 'field46' => 46, 'field47' => 47, 'field48' => 48, 'field49' => 49, 'field50' => 50, ),
-        self::TYPE_COLNAME       => array(BookTableMap::COL_ID => 0, BookTableMap::COL_FIELD_01 => 1, BookTableMap::COL_FIELD_02 => 2, BookTableMap::COL_FIELD_03 => 3, BookTableMap::COL_FIELD_04 => 4, BookTableMap::COL_FIELD_05 => 5, BookTableMap::COL_FIELD_06 => 6, BookTableMap::COL_FIELD_07 => 7, BookTableMap::COL_FIELD_08 => 8, BookTableMap::COL_FIELD_09 => 9, BookTableMap::COL_FIELD_10 => 10, BookTableMap::COL_FIELD_11 => 11, BookTableMap::COL_FIELD_12 => 12, BookTableMap::COL_FIELD_13 => 13, BookTableMap::COL_FIELD_14 => 14, BookTableMap::COL_FIELD_15 => 15, BookTableMap::COL_FIELD_16 => 16, BookTableMap::COL_FIELD_17 => 17, BookTableMap::COL_FIELD_18 => 18, BookTableMap::COL_FIELD_19 => 19, BookTableMap::COL_FIELD_20 => 20, BookTableMap::COL_FIELD_21 => 21, BookTableMap::COL_FIELD_22 => 22, BookTableMap::COL_FIELD_23 => 23, BookTableMap::COL_FIELD_24 => 24, BookTableMap::COL_FIELD_25 => 25, BookTableMap::COL_FIELD_26 => 26, BookTableMap::COL_FIELD_27 => 27, BookTableMap::COL_FIELD_28 => 28, BookTableMap::COL_FIELD_29 => 29, BookTableMap::COL_FIELD_30 => 30, BookTableMap::COL_FIELD_31 => 31, BookTableMap::COL_FIELD_32 => 32, BookTableMap::COL_FIELD_33 => 33, BookTableMap::COL_FIELD_34 => 34, BookTableMap::COL_FIELD_35 => 35, BookTableMap::COL_FIELD_36 => 36, BookTableMap::COL_FIELD_37 => 37, BookTableMap::COL_FIELD_38 => 38, BookTableMap::COL_FIELD_39 => 39, BookTableMap::COL_FIELD_40 => 40, BookTableMap::COL_FIELD_41 => 41, BookTableMap::COL_FIELD_42 => 42, BookTableMap::COL_FIELD_43 => 43, BookTableMap::COL_FIELD_44 => 44, BookTableMap::COL_FIELD_45 => 45, BookTableMap::COL_FIELD_46 => 46, BookTableMap::COL_FIELD_47 => 47, BookTableMap::COL_FIELD_48 => 48, BookTableMap::COL_FIELD_49 => 49, BookTableMap::COL_FIELD_50 => 50, ),
-        self::TYPE_FIELDNAME     => array('id' => 0, 'field_01' => 1, 'field_02' => 2, 'field_03' => 3, 'field_04' => 4, 'field_05' => 5, 'field_06' => 6, 'field_07' => 7, 'field_08' => 8, 'field_09' => 9, 'field_10' => 10, 'field_11' => 11, 'field_12' => 12, 'field_13' => 13, 'field_14' => 14, 'field_15' => 15, 'field_16' => 16, 'field_17' => 17, 'field_18' => 18, 'field_19' => 19, 'field_20' => 20, 'field_21' => 21, 'field_22' => 22, 'field_23' => 23, 'field_24' => 24, 'field_25' => 25, 'field_26' => 26, 'field_27' => 27, 'field_28' => 28, 'field_29' => 29, 'field_30' => 30, 'field_31' => 31, 'field_32' => 32, 'field_33' => 33, 'field_34' => 34, 'field_35' => 35, 'field_36' => 36, 'field_37' => 37, 'field_38' => 38, 'field_39' => 39, 'field_40' => 40, 'field_41' => 41, 'field_42' => 42, 'field_43' => 43, 'field_44' => 44, 'field_45' => 45, 'field_46' => 46, 'field_47' => 47, 'field_48' => 48, 'field_49' => 49, 'field_50' => 50, ),
-        self::TYPE_NUM           => array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, )
-    );
+    protected static $fieldKeys = [
+        self::TYPE_PHPNAME       => ['Id' => 0, 'Field01' => 1, 'Field02' => 2, 'Field03' => 3, 'Field04' => 4, 'Field05' => 5, 'Field06' => 6, 'Field07' => 7, 'Field08' => 8, 'Field09' => 9, 'Field10' => 10, 'Field11' => 11, 'Field12' => 12, 'Field13' => 13, 'Field14' => 14, 'Field15' => 15, 'Field16' => 16, 'Field17' => 17, 'Field18' => 18, 'Field19' => 19, 'Field20' => 20, 'Field21' => 21, 'Field22' => 22, 'Field23' => 23, 'Field24' => 24, 'Field25' => 25, 'Field26' => 26, 'Field27' => 27, 'Field28' => 28, 'Field29' => 29, 'Field30' => 30, 'Field31' => 31, 'Field32' => 32, 'Field33' => 33, 'Field34' => 34, 'Field35' => 35, 'Field36' => 36, 'Field37' => 37, 'Field38' => 38, 'Field39' => 39, 'Field40' => 40, 'Field41' => 41, 'Field42' => 42, 'Field43' => 43, 'Field44' => 44, 'Field45' => 45, 'Field46' => 46, 'Field47' => 47, 'Field48' => 48, 'Field49' => 49, 'Field50' => 50, ],
+        self::TYPE_CAMELNAME     => ['id' => 0, 'field01' => 1, 'field02' => 2, 'field03' => 3, 'field04' => 4, 'field05' => 5, 'field06' => 6, 'field07' => 7, 'field08' => 8, 'field09' => 9, 'field10' => 10, 'field11' => 11, 'field12' => 12, 'field13' => 13, 'field14' => 14, 'field15' => 15, 'field16' => 16, 'field17' => 17, 'field18' => 18, 'field19' => 19, 'field20' => 20, 'field21' => 21, 'field22' => 22, 'field23' => 23, 'field24' => 24, 'field25' => 25, 'field26' => 26, 'field27' => 27, 'field28' => 28, 'field29' => 29, 'field30' => 30, 'field31' => 31, 'field32' => 32, 'field33' => 33, 'field34' => 34, 'field35' => 35, 'field36' => 36, 'field37' => 37, 'field38' => 38, 'field39' => 39, 'field40' => 40, 'field41' => 41, 'field42' => 42, 'field43' => 43, 'field44' => 44, 'field45' => 45, 'field46' => 46, 'field47' => 47, 'field48' => 48, 'field49' => 49, 'field50' => 50, ],
+        self::TYPE_COLNAME       => [BookTableMap::COL_ID => 0, BookTableMap::COL_FIELD_01 => 1, BookTableMap::COL_FIELD_02 => 2, BookTableMap::COL_FIELD_03 => 3, BookTableMap::COL_FIELD_04 => 4, BookTableMap::COL_FIELD_05 => 5, BookTableMap::COL_FIELD_06 => 6, BookTableMap::COL_FIELD_07 => 7, BookTableMap::COL_FIELD_08 => 8, BookTableMap::COL_FIELD_09 => 9, BookTableMap::COL_FIELD_10 => 10, BookTableMap::COL_FIELD_11 => 11, BookTableMap::COL_FIELD_12 => 12, BookTableMap::COL_FIELD_13 => 13, BookTableMap::COL_FIELD_14 => 14, BookTableMap::COL_FIELD_15 => 15, BookTableMap::COL_FIELD_16 => 16, BookTableMap::COL_FIELD_17 => 17, BookTableMap::COL_FIELD_18 => 18, BookTableMap::COL_FIELD_19 => 19, BookTableMap::COL_FIELD_20 => 20, BookTableMap::COL_FIELD_21 => 21, BookTableMap::COL_FIELD_22 => 22, BookTableMap::COL_FIELD_23 => 23, BookTableMap::COL_FIELD_24 => 24, BookTableMap::COL_FIELD_25 => 25, BookTableMap::COL_FIELD_26 => 26, BookTableMap::COL_FIELD_27 => 27, BookTableMap::COL_FIELD_28 => 28, BookTableMap::COL_FIELD_29 => 29, BookTableMap::COL_FIELD_30 => 30, BookTableMap::COL_FIELD_31 => 31, BookTableMap::COL_FIELD_32 => 32, BookTableMap::COL_FIELD_33 => 33, BookTableMap::COL_FIELD_34 => 34, BookTableMap::COL_FIELD_35 => 35, BookTableMap::COL_FIELD_36 => 36, BookTableMap::COL_FIELD_37 => 37, BookTableMap::COL_FIELD_38 => 38, BookTableMap::COL_FIELD_39 => 39, BookTableMap::COL_FIELD_40 => 40, BookTableMap::COL_FIELD_41 => 41, BookTableMap::COL_FIELD_42 => 42, BookTableMap::COL_FIELD_43 => 43, BookTableMap::COL_FIELD_44 => 44, BookTableMap::COL_FIELD_45 => 45, BookTableMap::COL_FIELD_46 => 46, BookTableMap::COL_FIELD_47 => 47, BookTableMap::COL_FIELD_48 => 48, BookTableMap::COL_FIELD_49 => 49, BookTableMap::COL_FIELD_50 => 50, ],
+        self::TYPE_FIELDNAME     => ['id' => 0, 'field_01' => 1, 'field_02' => 2, 'field_03' => 3, 'field_04' => 4, 'field_05' => 5, 'field_06' => 6, 'field_07' => 7, 'field_08' => 8, 'field_09' => 9, 'field_10' => 10, 'field_11' => 11, 'field_12' => 12, 'field_13' => 13, 'field_14' => 14, 'field_15' => 15, 'field_16' => 16, 'field_17' => 17, 'field_18' => 18, 'field_19' => 19, 'field_20' => 20, 'field_21' => 21, 'field_22' => 22, 'field_23' => 23, 'field_24' => 24, 'field_25' => 25, 'field_26' => 26, 'field_27' => 27, 'field_28' => 28, 'field_29' => 29, 'field_30' => 30, 'field_31' => 31, 'field_32' => 32, 'field_33' => 33, 'field_34' => 34, 'field_35' => 35, 'field_36' => 36, 'field_37' => 37, 'field_38' => 38, 'field_39' => 39, 'field_40' => 40, 'field_41' => 41, 'field_42' => 42, 'field_43' => 43, 'field_44' => 44, 'field_45' => 45, 'field_46' => 46, 'field_47' => 47, 'field_48' => 48, 'field_49' => 49, 'field_50' => 50, ],
+        self::TYPE_NUM           => [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, ]
+    ];
 
     /**
      * Holds a list of column names and their normalized version.
      *
-     * @var string[]
+     * @var array<string>
      */
     protected $normalizedColumnNameMap = [
-
         'Id' => 'ID',
         'Book.Id' => 'ID',
         'id' => 'ID',
         'book.id' => 'ID',
         'BookTableMap::COL_ID' => 'ID',
         'COL_ID' => 'ID',
-        'id' => 'ID',
-        'book.id' => 'ID',
         'Field01' => 'FIELD_01',
         'Book.Field01' => 'FIELD_01',
         'field01' => 'FIELD_01',
@@ -780,9 +777,9 @@ class BookTableMap extends TableMap
      * Relations are not initialized by this method since they are lazy loaded
      *
      * @return void
-     * @throws PropelException
+     * @throws \Propel\Runtime\Exception\PropelException
      */
-    public function initialize()
+    public function initialize(): void
     {
         // attributes
         $this->setName('book');
@@ -843,14 +840,16 @@ class BookTableMap extends TableMap
         $this->addColumn('field_48', 'Field48', 'VARCHAR', true, 255, null);
         $this->addColumn('field_49', 'Field49', 'VARCHAR', true, 255, null);
         $this->addColumn('field_50', 'Field50', 'VARCHAR', true, 255, null);
-    } // initialize()
+    }
 
     /**
      * Build the RelationMap objects for this table relationships
+     *
+     * @return void
      */
-    public function buildRelations()
+    public function buildRelations(): void
     {
-    } // buildRelations()
+    }
 
     /**
      * Retrieves a string version of the primary key from the DB resultset row that can be used to uniquely identify a row in this table.
@@ -858,14 +857,14 @@ class BookTableMap extends TableMap
      * For tables with a single-column primary key, that simple pkey value will be returned.  For tables with
      * a multi-column primary key, a serialize()d version of the primary key will be returned.
      *
-     * @param array  $row       resultset row.
-     * @param int    $offset    The 0-based offset for reading from the resultset row.
+     * @param array $row Resultset row.
+     * @param int $offset The 0-based offset for reading from the resultset row.
      * @param string $indexType One of the class type constants TableMap::TYPE_PHPNAME, TableMap::TYPE_CAMELNAME
      *                           TableMap::TYPE_COLNAME, TableMap::TYPE_FIELDNAME, TableMap::TYPE_NUM
      *
-     * @return string The primary key hash of the row
+     * @return string|null The primary key hash of the row
      */
-    public static function getPrimaryKeyHashFromRow($row, $offset = 0, $indexType = TableMap::TYPE_NUM)
+    public static function getPrimaryKeyHashFromRow(array $row, int $offset = 0, string $indexType = TableMap::TYPE_NUM): ?string
     {
         // If the PK cannot be derived from the row, return NULL.
         if ($row[TableMap::TYPE_NUM == $indexType ? 0 + $offset : static::translateFieldName('Id', TableMap::TYPE_PHPNAME, $indexType)] === null) {
@@ -880,14 +879,14 @@ class BookTableMap extends TableMap
      * For tables with a single-column primary key, that simple pkey value will be returned.  For tables with
      * a multi-column primary key, an array of the primary key columns will be returned.
      *
-     * @param array  $row       resultset row.
-     * @param int    $offset    The 0-based offset for reading from the resultset row.
+     * @param array $row Resultset row.
+     * @param int $offset The 0-based offset for reading from the resultset row.
      * @param string $indexType One of the class type constants TableMap::TYPE_PHPNAME, TableMap::TYPE_CAMELNAME
      *                           TableMap::TYPE_COLNAME, TableMap::TYPE_FIELDNAME, TableMap::TYPE_NUM
      *
      * @return mixed The primary key of the row
      */
-    public static function getPrimaryKeyFromRow($row, $offset = 0, $indexType = TableMap::TYPE_NUM)
+    public static function getPrimaryKeyFromRow(array $row, int $offset = 0, string $indexType = TableMap::TYPE_NUM)
     {
         return (int) $row[
             $indexType == TableMap::TYPE_NUM
@@ -904,10 +903,10 @@ class BookTableMap extends TableMap
      * relative to a location on the PHP include_path.
      * (e.g. path.to.MyClass -> 'path/to/MyClass.php')
      *
-     * @param boolean $withPrefix Whether or not to return the path with the class name
+     * @param bool $withPrefix Whether to return the path with the class name
      * @return string path.to.ClassName
      */
-    public static function getOMClass($withPrefix = true)
+    public static function getOMClass(bool $withPrefix = true): string
     {
         return $withPrefix ? BookTableMap::CLASS_DEFAULT : BookTableMap::OM_CLASS;
     }
@@ -915,17 +914,17 @@ class BookTableMap extends TableMap
     /**
      * Populates an object of the default type or an object that inherit from the default.
      *
-     * @param array  $row       row returned by DataFetcher->fetch().
-     * @param int    $offset    The 0-based offset for reading from the resultset row.
+     * @param array $row Row returned by DataFetcher->fetch().
+     * @param int $offset The 0-based offset for reading from the resultset row.
      * @param string $indexType The index type of $row. Mostly DataFetcher->getIndexType().
                                  One of the class type constants TableMap::TYPE_PHPNAME, TableMap::TYPE_CAMELNAME
      *                           TableMap::TYPE_COLNAME, TableMap::TYPE_FIELDNAME, TableMap::TYPE_NUM.
      *
-     * @throws PropelException Any exceptions caught during processing will be
+     * @throws \Propel\Runtime\Exception\PropelException Any exceptions caught during processing will be
      *                         rethrown wrapped into a PropelException.
-     * @return array           (Book object, last column rank)
+     * @return array (Book object, last column rank)
      */
-    public static function populateObject($row, $offset = 0, $indexType = TableMap::TYPE_NUM)
+    public static function populateObject(array $row, int $offset = 0, string $indexType = TableMap::TYPE_NUM): array
     {
         $key = BookTableMap::getPrimaryKeyHashFromRow($row, $offset, $indexType);
         if (null !== ($obj = BookTableMap::getInstanceFromPool($key))) {
@@ -949,13 +948,13 @@ class BookTableMap extends TableMap
      * objects that inherit from the default.
      *
      * @param DataFetcherInterface $dataFetcher
-     * @return array
-     * @throws PropelException Any exceptions caught during processing will be
+     * @return array<object>
+     * @throws \Propel\Runtime\Exception\PropelException Any exceptions caught during processing will be
      *                         rethrown wrapped into a PropelException.
      */
-    public static function populateObjects(DataFetcherInterface $dataFetcher)
+    public static function populateObjects(DataFetcherInterface $dataFetcher): array
     {
-        $results = array();
+        $results = [];
 
         // set the class once to avoid overhead in the loop
         $cls = static::getOMClass(false);
@@ -985,12 +984,13 @@ class BookTableMap extends TableMap
      * XML schema will not be added to the select list and only loaded
      * on demand.
      *
-     * @param Criteria $criteria object containing the columns to add.
-     * @param string   $alias    optional table alias
-     * @throws PropelException Any exceptions caught during processing will be
+     * @param Criteria $criteria Object containing the columns to add.
+     * @param string|null $alias Optional table alias
+     * @throws \Propel\Runtime\Exception\PropelException Any exceptions caught during processing will be
      *                         rethrown wrapped into a PropelException.
+     * @return void
      */
-    public static function addSelectColumns(Criteria $criteria, $alias = null)
+    public static function addSelectColumns(Criteria $criteria, ?string $alias = null): void
     {
         if (null === $alias) {
             $criteria->addSelectColumn(BookTableMap::COL_ID);
@@ -1105,12 +1105,13 @@ class BookTableMap extends TableMap
      * Note: any columns that were marked with lazyLoad="true" in the
      * XML schema will not be removed as they are only loaded on demand.
      *
-     * @param Criteria $criteria object containing the columns to remove.
-     * @param string   $alias    optional table alias
-     * @throws PropelException Any exceptions caught during processing will be
+     * @param Criteria $criteria Object containing the columns to remove.
+     * @param string|null $alias Optional table alias
+     * @throws \Propel\Runtime\Exception\PropelException Any exceptions caught during processing will be
      *                         rethrown wrapped into a PropelException.
+     * @return void
      */
-    public static function removeSelectColumns(Criteria $criteria, $alias = null)
+    public static function removeSelectColumns(Criteria $criteria, ?string $alias = null): void
     {
         if (null === $alias) {
             $criteria->removeSelectColumn(BookTableMap::COL_ID);
@@ -1223,7 +1224,7 @@ class BookTableMap extends TableMap
      * Returns the TableMap related to this object.
      * This method is not needed for general use but a specific application could have a need.
      * @return TableMap
-     * @throws PropelException Any exceptions caught during processing will be
+     * @throws \Propel\Runtime\Exception\PropelException Any exceptions caught during processing will be
      *                         rethrown wrapped into a PropelException.
      */
     public static function getTableMap()
@@ -1232,28 +1233,17 @@ class BookTableMap extends TableMap
     }
 
     /**
-     * Add a TableMap instance to the database for this tableMap class.
-     */
-    public static function buildTableMap()
-    {
-        $dbMap = Propel::getServiceContainer()->getDatabaseMap(BookTableMap::DATABASE_NAME);
-        if (!$dbMap->hasTable(BookTableMap::TABLE_NAME)) {
-            $dbMap->addTableObject(new BookTableMap());
-        }
-    }
-
-    /**
      * Performs a DELETE on the database, given a Book or Criteria object OR a primary key value.
      *
-     * @param mixed               $values Criteria or Book object or primary key or array of primary keys
+     * @param mixed $values Criteria or Book object or primary key or array of primary keys
      *              which is used to create the DELETE statement
-     * @param  ConnectionInterface $con the connection to use
-     * @return int             The number of affected rows (if supported by underlying database driver).  This includes CASCADE-related rows
+     * @param ConnectionInterface $con the connection to use
+     * @return int The number of affected rows (if supported by underlying database driver).  This includes CASCADE-related rows
      *                         if supported by native driver or if emulated using Propel.
-     * @throws PropelException Any exceptions caught during processing will be
+     * @throws \Propel\Runtime\Exception\PropelException Any exceptions caught during processing will be
      *                         rethrown wrapped into a PropelException.
      */
-     public static function doDelete($values, ConnectionInterface $con = null)
+     public static function doDelete($values, ?ConnectionInterface $con = null): int
      {
         if (null === $con) {
             $con = Propel::getServiceContainer()->getWriteConnection(BookTableMap::DATABASE_NAME);
@@ -1289,7 +1279,7 @@ class BookTableMap extends TableMap
      * @param ConnectionInterface $con the connection to use
      * @return int The number of affected rows (if supported by underlying database driver).
      */
-    public static function doDeleteAll(ConnectionInterface $con = null)
+    public static function doDeleteAll(?ConnectionInterface $con = null): int
     {
         return BookQuery::create()->doDeleteAll($con);
     }
@@ -1297,13 +1287,13 @@ class BookTableMap extends TableMap
     /**
      * Performs an INSERT on the database, given a Book or Criteria object.
      *
-     * @param mixed               $criteria Criteria or Book object containing data that is used to create the INSERT statement.
+     * @param mixed $criteria Criteria or Book object containing data that is used to create the INSERT statement.
      * @param ConnectionInterface $con the ConnectionInterface connection to use
-     * @return mixed           The new primary key.
-     * @throws PropelException Any exceptions caught during processing will be
+     * @return mixed The new primary key.
+     * @throws \Propel\Runtime\Exception\PropelException Any exceptions caught during processing will be
      *                         rethrown wrapped into a PropelException.
      */
-    public static function doInsert($criteria, ConnectionInterface $con = null)
+    public static function doInsert($criteria, ?ConnectionInterface $con = null)
     {
         if (null === $con) {
             $con = Propel::getServiceContainer()->getWriteConnection(BookTableMap::DATABASE_NAME);
@@ -1330,7 +1320,4 @@ class BookTableMap extends TableMap
         });
     }
 
-} // BookTableMap
-// This is the static code needed to register the TableMap for this table with the main Propel class.
-//
-BookTableMap::buildTableMap();
+}
